@@ -1,11 +1,11 @@
 body {
-	background-color: gray;
+	background-color: orange;
 }
 
 h1, h2, p {
-	color: yellow
+	color: gray
 }
 
-link {
-	color: orange
+ul, li, link {
+	color: gray
 }
