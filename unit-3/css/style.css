@@ -1,29 +1,53 @@
-	/*background: url("https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10402384_10152658519151911_4946445687297164608_n.jpg?oh=8fe08e5051c76952df468772b364f6e0&oe=5637EE41");*/
-	/*Can you do this without having the image online (i.e. linked to from filepath)*/
-/*	Can you add an overlay to an image through CSS rather than doing it first in photoshop?*/
-
-body {
-
-	background: url("http://s6.postimg.org/i2wz022nl/beautiful_trees_overlay_blur.jpg");
-	background-size: cover;
-	text-align: center;
-	font-family: Helvetica;
-
-	}
-
-h1, h2, h3, p, ul, li, a {
-		color: rgb(250,235,215);
+html {
+	width:100%;
 }
 
-/*#logo {
-	padding-top: 50px;
-	padding-bottom: 25px;
-}*/
+body {
+	background-image: url("../images/beautiful-trees-overlay-blur.jpg");
+	background-size: 100%;
+	text-align: center;
+	font-family: Helvetica;
+	width: 100%;
+	}
 
 #nav {
+	padding-top: 8px;
+	padding-bottom: 8px;
 	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h1, h2, h3, p, ul, li, a {
+	color: rgb(250,235,215);
+}
+
+h1 {
+	text-transform: uppercase;
 	font-size: 25px;
-	font-weight: lighter;
+	font-weight: bold;
+}
+
+/*h2 {
+	font-size: 16px;
+	font-weight: bolder;
+}*/
+
+h3 {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+p {
+	font-size: 15px;
+}
+
+hr {
+	vertical-align: center;
+	width: 772px;
+	height: 2px;
+	background-color: rgba(255,255,255,0.5);
+	border: none;
 }
 
 .thumbnail {
@@ -35,47 +59,7 @@ h1, h2, h3, p, ul, li, a {
 	padding-right: 5px
 }
 
-h1 {
-	font-size: 25px;
-	font-weight: lighter;
-}
-
-#slogan {
-	text-transform: uppercase;
-	font-weight: bold;
-	font-style: italic;
-	font-size: 18px;
-}
-
-hr {
-	vertical-align: center;
-	width: 772px;
-	height: 7px;
-	background-color: rgba(255,255,255,0.5);
-	border-color: rgba(255,255,255,0.5);
-/*	there's a dark edge top and left of the the <hr> that I don't know how to remove*/
-}
-
-.heavy {
-	font-weight: bold;
-}
-
 ul {
 	list-style-type: none;
 	text-align: center;
 }
-
-
-/*Step 3: CSS Declarations
-
-Make use of some the property declarations you learned in this unit, such as:
-
-background
-background-color
-color
-font-size
-font-style
-font-weight
-text-align
-text-decoration
-text-transform*/
