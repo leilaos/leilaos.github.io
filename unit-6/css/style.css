@@ -1,0 +1,253 @@
+/*Questions for Sarah
+
+.html files for two pages - do they both sit in the main folder, or do you give each page a separate folder? I did this initially for the blog page, but the styling all disappeared. If the blog.html was in the blog folder, would the css link need to be different?
+
+Really confused about 
+1. float-left vs display inline-block
+2. When to use clearfix (i was adding it everywhere then deleting by process of elimitation to see which broke the page - not a very successful method...!)
+
+BUTTON ISSUES:
+- When playing around with the hover styling, I wanted the button to be 'white' and then turn the darked colour when hovered over, but the background color would only cover the text, not the whole button. How can I cover the whole button?
+
+
+IMAGES
+1. spent ages trying to work out how to resize the images within CSS (including using max-width:) but nothing seemed to work to have cheated by resizinv in HRML for 
+
+2. Beyond Brunch... Blog intro section
+- The image was overlapping the bottom content. I couldn't work out how to stop, so for now have just added <br>s to the text content */
+
+
+
+/*FONTS*/
+@import url(https://fonts.googleapis.com/css?family=Dosis:700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700italic);
+
+/*SEMANTIC TAGS*/
+
+body {
+	color: #34342F;	
+	background-color: #F3F3DB;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 16px;
+	line-height: 1.618em;
+	}
+
+p {
+	padding-bottom: 1em;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+h2 a {
+	text-decoration: none;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+h3 {
+	margin-bottom: 25px;
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+header {
+	width: 940px;
+	float: left;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+nav {
+	font-family: 'Dosis', sans-serif;	
+	letter-spacing: 0.25em;
+	font-size: 1em;
+	float: right;
+	padding-top: 54px;
+	text-transform: uppercase;
+}
+
+nav a:link {
+	text-decoration: none;
+	color: #34342F;
+}
+
+a:visited {
+	color: #34342F;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	color: #34342F;
+	background-color: rgba(52,52,47,0.5);
+}
+
+footer {
+	width: 940px;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	margin: 0px 10px;
+	padding: 10px;
+}
+
+/*CLASSES*/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.mainp {
+	font-size: 1em;
+	font-family: 'Droid Serif', serif;
+	text-align: justify;
+
+}
+
+.mainp2 {
+	font-size: 1em;
+	font-family: 'Droid Serif', serif;
+	text-align: justify;
+	padding-right: 10px;
+}
+
+
+
+.button {
+	background-color: #34342F;
+	border-radius: 3px;
+	font-family: 'Dosis', sans-serif;	
+	font-size: 1em;
+	padding: 2px;
+	margin: 10px 0px;
+	max-width: 150px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button a {
+	color: #F3DBF3;
+	text-decoration: none;
+}
+
+.button a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	width:190px;
+	height: 190px;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.section {
+	display: inline-block;
+	width: 100%; 
+}
+
+.maincol1 {
+	display: inline-block;
+	width: 310px;
+	padding: 10px;
+	text-align: justify;
+	max-width: 310px;
+}
+
+.maincol2 {
+	display: inline-block;
+	width: 610px;
+	float: right;
+	margin: 10px 0px 0px 0px; 
+}
+
+.column {
+	display: inline-block;
+	width: 190px;
+	margin-left: 7px;
+}
+
+.img {
+	position: absolute;
+}
+
+.imgp {
+	position: absolute;
+	background-color: rgba(243,219,243,0.85);
+	font-family: 'Droid Serif', serif;
+	font-weight: 700italic;
+  	font-size: 0.75em;
+  	line-height: 1.5em;
+  	margin: 5px;
+  	padding: 5px;
+  	color: white; 
+}
+
+.imgp span {
+	width: 95%;
+	padding: 10px;
+	margin: 2px; 
+}
+
+.imgp a {
+	color: #342F34;
+	text-decoration: none;
+}
+
+.imgp a:hover {
+/*	background-color: white;*/
+/*	color: #D9D9C4;*/
+	text-decoration: underline;
+}
+
+.bttmcol {
+	display: inline-block;
+	float: left;
+	width: 290px;
+	padding: 15px;
+/*	text-align: justify;*/
+}
+
+/*IDs*/
+
+#logotext {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.6em;
+	text-transform: uppercase;
+
+}
+
+#wrapper {
+	width: 100%;
+}
+
+#h2blog {
+	padding: 10px 0px;
+	text-transform: none;
+	line-height: 1.3em;
+}
+
+/*#bttmcol2 {
+	display: inline-block;
+	width: 310px;
+	padding: 10px;
+	text-align: justify;
+}*/
+
