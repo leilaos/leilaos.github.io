@@ -32,6 +32,7 @@ body {
     margin-right: auto;
 	font-size: 16px;
 	line-height: 1.618em;
+	box-sizing: border-box;
 	}
 
 p {
@@ -119,7 +120,6 @@ footer {
 	font-size: 1em;
 	font-family: 'Droid Serif', serif;
 	text-align: justify;
-
 }
 
 .mainp2 {
@@ -127,29 +127,7 @@ footer {
 	font-family: 'Droid Serif', serif;
 	text-align: justify;
 	padding-right: 10px;
-}
-
-
-
-.button {
-	background-color: #34342F;
-	border-radius: 3px;
-	font-family: 'Dosis', sans-serif;	
-	font-size: 1em;
-	padding: 2px;
-	margin: 10px 0px;
-	max-width: 150px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.button a {
-	color: #F3DBF3;
-	text-decoration: none;
-}
-
-.button a:hover {
-	text-decoration: underline;
+	margin: 10px;
 }
 
 .container {
@@ -164,19 +142,46 @@ footer {
 	width: 100%; 
 }
 
-.maincol1 {
-	display: inline-block;
-	width: 310px;
-	padding: 10px;
-	text-align: justify;
-	max-width: 310px;
+.button1 {
+	background-color: #F3DBF3;
+	border-radius: 3px;
+	font-family: 'Dosis', sans-serif;	
+	font-size: 1em;
+	padding: 2px;
+	margin: 10px 0px;
+	max-width: 150px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
-.maincol2 {
-	display: inline-block;
-	width: 610px;
-	float: right;
-	margin: 10px 0px 0px 0px; 
+.button1 a {
+	color: #34342F;
+	text-decoration: none;
+}
+
+.button1 a:hover {
+	text-decoration: underline;
+}
+
+.button2 {
+	background-color: #34342F;
+	border-radius: 3px;
+	font-family: 'Dosis', sans-serif;	
+	font-size: 1em;
+	padding: 2px;
+	margin: 10px 0px;
+	max-width: 150px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button2 a {
+	color: #F3DBF3;
+	text-decoration: none;
+}
+
+.button2 a:hover {
+	text-decoration: underline;
 }
 
 .column {
@@ -239,16 +244,52 @@ footer {
 	width: 100%;
 }
 
+#maincol1 {
+	float: left;
+	background-color: #34342F;
+	color: #F3F3DB;
+	display: inline-block;
+	width: 310px;
+	padding: 20px;
+	text-align: justify;
+	max-width: 290px;
+	height: 550px;
+	margin: 10px;
+}
+
+#maincol2 {
+	float: left;
+	display: inline-block;
+	width: 610px;
+	float: right;
+	margin: 10px 0px 0px 0px; 
+}
+
+#maincol3 {
+	float: left;/*	
+background-color: #F3F3DB;*/
+	color: #34342F;
+/*	display: inline-block;*/
+	width: 330px;
+	text-align: justify;
+	max-width: 290px;
+	margin: 10px 0px 10px 10px;
+	height: 100%;
+}
+
+#maincol4 {
+	float: left;
+	width: 600px;
+	float: right;
+/*	padding: 0px 20px;*/
+	margin: 10px 0px 0px 10px; 
+}
+
 #h2blog {
 	padding: 10px 0px;
 	text-transform: none;
 	line-height: 1.3em;
 }
 
-/*#bttmcol2 {
-	display: inline-block;
-	width: 310px;
-	padding: 10px;
-	text-align: justify;
-}*/
+
 
