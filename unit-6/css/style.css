@@ -133,7 +133,7 @@ footer {
 .blogp {
 	font-size: 1em;
 	font-family: 'Droid Serif', serif;
-/*	text-align: justify;*/
+	text-align: justify;
 /*	padding-right: 10px;*/
 /*	margin: 10px;*/
 }
