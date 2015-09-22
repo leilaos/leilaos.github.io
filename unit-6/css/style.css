@@ -130,6 +130,14 @@ footer {
 	margin: 10px;
 }
 
+.blogp {
+	font-size: 1em;
+	font-family: 'Droid Serif', serif;
+/*	text-align: justify;*/
+/*	padding-right: 10px;*/
+/*	margin: 10px;*/
+}
+
 .container {
 	width:190px;
 	height: 190px;
@@ -285,7 +293,25 @@ background-color: #F3F3DB;*/
 	margin: 10px 0px 0px 10px; 
 }
 
-#h2blog {
+#leftcolblog {
+	float: left;
+	color: #F3F3DB;
+	display: inline-block;
+	width: 310px;
+	text-align: justify;
+	max-width: 290px;
+	margin: 10px;
+}
+
+#maincolblog {
+	float: left;
+	display: inline-block;
+	width: 610px;
+	float: right;
+	margin: 10px 0px 0px 0px; 
+}
+
+#h3blog {
 	padding: 10px 0px;
 	text-transform: none;
 	line-height: 1.3em;
