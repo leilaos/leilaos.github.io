@@ -96,6 +96,37 @@ hr {
 	background-color: rgba(52,52,47,0.5);
 }
 
+.container {
+	float: left;
+	width: 190px;
+    height: 190px;
+  	margin: 0 5px 10px;
+}
+
+figure {
+	position: relative;
+}
+
+figcaption {
+	position: absolute;
+	background-color: rgba(243,219,243,0.85);
+	font-family: 'Droid Serif', serif;
+	font-weight: 700italic;
+  	font-size: 0.75em;
+  	line-height: 1.5em;
+  	color: white; 
+	width: 100%;
+}
+
+figcaption a {
+	color: #342F34;
+	text-decoration: none;
+}
+
+figcaption a:hover {
+	text-decoration: underline;
+}
+
 footer {
 	width: 940px;
 	float: left;
@@ -122,6 +153,10 @@ footer {
 	text-align: justify;
 }
 
+
+
+
+
 .mainp2 {
 	font-size: 1em;
 	font-family: 'Droid Serif', serif;
@@ -136,13 +171,6 @@ footer {
 	text-align: justify;
 /*	padding-right: 10px;*/
 /*	margin: 10px;*/
-}
-
-.container {
-	width:190px;
-	height: 190px;
-	position: relative;
-	padding-bottom: 10px;
 }
 
 .section {
@@ -192,45 +220,6 @@ footer {
 	text-decoration: underline;
 }
 
-.column {
-	display: inline-block;
-	width: 190px;
-	margin-left: 7px;
-}
-
-.img {
-	position: absolute;
-}
-
-.imgp {
-	position: absolute;
-	background-color: rgba(243,219,243,0.85);
-	font-family: 'Droid Serif', serif;
-	font-weight: 700italic;
-  	font-size: 0.75em;
-  	line-height: 1.5em;
-  	margin: 5px;
-  	padding: 5px;
-  	color: white; 
-}
-
-.imgp span {
-	width: 95%;
-	padding: 10px;
-	margin: 2px; 
-}
-
-.imgp a {
-	color: #342F34;
-	text-decoration: none;
-}
-
-.imgp a:hover {
-/*	background-color: white;*/
-/*	color: #D9D9C4;*/
-	text-decoration: underline;
-}
-
 .bttmcol {
 	display: inline-block;
 	float: left;
@@ -256,7 +245,7 @@ footer {
 	float: left;
 	background-color: #34342F;
 	color: #F3F3DB;
-	display: inline-block;
+/*	display: inline-block;*/
 	width: 310px;
 	padding: 20px;
 	text-align: justify;
@@ -267,7 +256,6 @@ footer {
 
 #maincol2 {
 	float: left;
-	display: inline-block;
 	width: 610px;
 	float: right;
 	margin: 10px 0px 0px 0px; 
