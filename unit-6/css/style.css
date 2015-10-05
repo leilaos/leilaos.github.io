@@ -96,15 +96,21 @@ hr {
 	background-color: rgba(52,52,47,0.5);
 }
 
-.container {
-	float: left;
-	width: 190px;
-    height: 190px;
-  	margin: 0 5px 10px;
+img {
+	width: 330px;
 }
 
 figure {
+	float: left;
 	position: relative;
+	width: 190px;
+    height: 190px;
+  	margin: 0 5px 10px;
+  	overflow: hidden;
+}
+
+figure img {
+	width: 100%;
 }
 
 figcaption {
@@ -115,7 +121,8 @@ figcaption {
   	font-size: 0.75em;
   	line-height: 1.5em;
   	color: white; 
-	width: 100%;
+	top: 0px;
+	padding: 5px 10px;
 }
 
 figcaption a {
@@ -225,7 +232,10 @@ footer {
 	float: left;
 	width: 290px;
 	padding: 15px;
-/*	text-align: justify;*/
+}
+
+.bttmcol img {
+	width:40px;
 }
 
 /*IDs*/
@@ -262,10 +272,8 @@ footer {
 }
 
 #maincol3 {
-	float: left;/*	
-background-color: #F3F3DB;*/
+	float: left;
 	color: #34342F;
-/*	display: inline-block;*/
 	width: 330px;
 	text-align: justify;
 	max-width: 290px;
@@ -289,6 +297,10 @@ background-color: #F3F3DB;*/
 	text-align: justify;
 	max-width: 290px;
 	margin: 10px;
+}
+
+#leftcolblog img {
+	width: 310px;
 }
 
 #maincolblog {
